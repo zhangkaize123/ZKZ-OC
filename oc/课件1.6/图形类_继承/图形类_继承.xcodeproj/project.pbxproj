@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFA90C01A5BC000004EE70E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA90BF1A5BC000004EE70E /* main.m */; };
+		3CFA90C81A5BC05F004EE70E /* ZKZShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA90C71A5BC05F004EE70E /* ZKZShape.m */; };
+		3CFA90CB1A5BC1A4004EE70E /* ZKZRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA90CA1A5BC1A4004EE70E /* ZKZRectangle.m */; };
+		3CFA90CE1A5BC46D004EE70E /* ZKZSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA90CD1A5BC46D004EE70E /* ZKZSquare.m */; };
+		3CFA90D11A5BC610004EE70E /* ZKZTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA90D01A5BC610004EE70E /* ZKZTriangle.m */; };
+		3CFA90D41A5BCB0D004EE70E /* ZKZCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA90D31A5BCB0D004EE70E /* ZKZCircle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CFA90BA1A5BC000004EE70E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CFA90BC1A5BC000004EE70E /* 图形类_继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "图形类_继承"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFA90BF1A5BC000004EE70E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CFA90C61A5BC05F004EE70E /* ZKZShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZShape.h; sourceTree = "<group>"; };
+		3CFA90C71A5BC05F004EE70E /* ZKZShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZShape.m; sourceTree = "<group>"; };
+		3CFA90C91A5BC1A4004EE70E /* ZKZRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZRectangle.h; sourceTree = "<group>"; };
+		3CFA90CA1A5BC1A4004EE70E /* ZKZRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZRectangle.m; sourceTree = "<group>"; };
+		3CFA90CC1A5BC46D004EE70E /* ZKZSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZSquare.h; sourceTree = "<group>"; };
+		3CFA90CD1A5BC46D004EE70E /* ZKZSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZSquare.m; sourceTree = "<group>"; };
+		3CFA90CF1A5BC610004EE70E /* ZKZTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZTriangle.h; sourceTree = "<group>"; };
+		3CFA90D01A5BC610004EE70E /* ZKZTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZTriangle.m; sourceTree = "<group>"; };
+		3CFA90D21A5BCB0D004EE70E /* ZKZCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZCircle.h; sourceTree = "<group>"; };
+		3CFA90D31A5BCB0D004EE70E /* ZKZCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZCircle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFA90B91A5BC000004EE70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFA90B31A5BBFFF004EE70E = {
+			isa = PBXGroup;
+			children = (
+				3CFA90BE1A5BC000004EE70E /* 图形类_继承 */,
+				3CFA90BD1A5BC000004EE70E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFA90BD1A5BC000004EE70E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA90BC1A5BC000004EE70E /* 图形类_继承 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFA90BE1A5BC000004EE70E /* 图形类_继承 */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA90BF1A5BC000004EE70E /* main.m */,
+				3CFA90C61A5BC05F004EE70E /* ZKZShape.h */,
+				3CFA90C71A5BC05F004EE70E /* ZKZShape.m */,
+				3CFA90C91A5BC1A4004EE70E /* ZKZRectangle.h */,
+				3CFA90CA1A5BC1A4004EE70E /* ZKZRectangle.m */,
+				3CFA90CC1A5BC46D004EE70E /* ZKZSquare.h */,
+				3CFA90CD1A5BC46D004EE70E /* ZKZSquare.m */,
+				3CFA90CF1A5BC610004EE70E /* ZKZTriangle.h */,
+				3CFA90D01A5BC610004EE70E /* ZKZTriangle.m */,
+				3CFA90D21A5BCB0D004EE70E /* ZKZCircle.h */,
+				3CFA90D31A5BCB0D004EE70E /* ZKZCircle.m */,
+			);
+			path = "图形类_继承";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFA90BB1A5BC000004EE70E /* 图形类_继承 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFA90C31A5BC000004EE70E /* Build configuration list for PBXNativeTarget "图形类_继承" */;
+			buildPhases = (
+				3CFA90B81A5BC000004EE70E /* Sources */,
+				3CFA90B91A5BC000004EE70E /* Frameworks */,
+				3CFA90BA1A5BC000004EE70E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图形类_继承";
+			productName = "图形类_继承";
+			productReference = 3CFA90BC1A5BC000004EE70E /* 图形类_继承 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFA90B41A5BBFFF004EE70E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					3CFA90BB1A5BC000004EE70E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CFA90B71A5BBFFF004EE70E /* Build configuration list for PBXProject "图形类_继承" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CFA90B31A5BBFFF004EE70E;
+			productRefGroup = 3CFA90BD1A5BC000004EE70E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFA90BB1A5BC000004EE70E /* 图形类_继承 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFA90B81A5BC000004EE70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFA90C01A5BC000004EE70E /* main.m in Sources */,
+				3CFA90C81A5BC05F004EE70E /* ZKZShape.m in Sources */,
+				3CFA90D11A5BC610004EE70E /* ZKZTriangle.m in Sources */,
+				3CFA90D41A5BCB0D004EE70E /* ZKZCircle.m in Sources */,
+				3CFA90CE1A5BC46D004EE70E /* ZKZSquare.m in Sources */,
+				3CFA90CB1A5BC1A4004EE70E /* ZKZRectangle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CFA90C11A5BC000004EE70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CFA90C21A5BC000004EE70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CFA90C41A5BC000004EE70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CFA90C51A5BC000004EE70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFA90B71A5BBFFF004EE70E /* Build configuration list for PBXProject "图形类_继承" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFA90C11A5BC000004EE70E /* Debug */,
+				3CFA90C21A5BC000004EE70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFA90C31A5BC000004EE70E /* Build configuration list for PBXNativeTarget "图形类_继承" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFA90C41A5BC000004EE70E /* Debug */,
+				3CFA90C51A5BC000004EE70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFA90B41A5BBFFF004EE70E /* Project object */;
+}
